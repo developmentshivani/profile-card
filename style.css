@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: rethink;
+    
+    
+}
+.container{
+    background-color: rgb(42, 61, 87);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    padding: 30px;
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+
+img{
+    height: 140px;
+}
+ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 20px;
+}
+button{
+    height: 30px;
+    width: 200px;
+    background-color: rgb(14, 80, 179);
+    border: none;
+    color: black;
+    border-radius: 20px 10px;
+    }
+    button:hover{
+        background-color: rgb(115, 72, 155);
+   }
+   i{
+    font-size: 10px;
+    color: beige;
+   }
+   h1{
+    font-size: larger;
+   }
+
+   #shivani{
+    width: 50px;
+    height: 50px;
+   }
+   
+   .circle{
+    width: 80px;
+    height: 80px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px
+   }
+
+   
